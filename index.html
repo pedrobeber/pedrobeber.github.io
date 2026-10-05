@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pedro Beber de Queiroz Vidal — LLM Agents & Computer Vision</title>
+<meta name="description" content="MSc researcher at Unicamp (HIAAC) working on LLM multi-agent systems, federated learning and face recognition.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <nav>
+    <a href="#about">About</a><a href="#research">Research</a><a href="#awards">Awards</a>
+    <a href="#projects">Projects</a><a href="#publications">Publications</a><a href="#evidence">Evidence</a>
+  </nav>
+</header>
+<main>
+<section class="hero" id="about">
+  <h1>Pedro Beber de Queiroz Vidal</h1>
+  <p class="tag">LLM agents &amp; computer vision researcher</p>
+  <p>MSc student at Unicamp's HIAAC, designing multi-agent architectures on a competitive scholarship. Seven peer-reviewed papers in four years, three as first author, and podium finishes in four international challenges, including <strong>1st place in a sub-task of the FRCSyn Challenge at WACV 2024</strong>.</p>
+  <p class="links">
+    <a class="btn" href="assets/Pedro_Beber_CV_EN.pdf">CV (EN)</a>
+    <a class="btn ghost" href="assets/Pedro_Beber_CV_PT.pdf">CV (PT)</a>
+    <a class="btn ghost" href="https://github.com/PedroBVidal">GitHub</a>
+    <a class="btn ghost" href="https://scholar.google.com.br/citations?user=VopZ0M8AAAAJ&amp;hl=pt-BR">Google Scholar</a>
+    <a class="btn ghost" href="mailto:p300865@dac.unicamp.br">Email</a>
+  </p>
+</section>
+
+<section id="research">
+  <h2>Research experience</h2>
+  <article>
+    <h3>Graduate Researcher, LLM Multi-Agent Systems <span>Aug 2026 – present</span></h3>
+    <p class="org">HIAAC, University of Campinas (Unicamp) · MSc in Computer Science, expected Mar 2028</p>
+    <ul>
+      <li>Design a multi-agent architecture coupling dynamic memory retrieval with an optimized inter-agent communication protocol, evaluated on agentic benchmarks.</li>
+      <li>Benchmark ReAct, chain-of-thought, in-context learning and task decomposition to isolate what moves task success.</li>
+      <li>Authored a literature review of LLM multi-agent systems: communication topologies, memory mechanisms, evaluation practice.</li>
+      <li>Federate facial feature extractors and generative models with Flower across non-IID clients, measuring the privacy-versus-accuracy trade-off.</li>
+    </ul>
+  </article>
+  <article>
+    <h3>Undergraduate Researcher, Computer Vision <span>Oct 2021 – Mar 2025</span></h3>
+    <p class="org">BOVIFOCR, UFPR–UNICO Partnership · BSc in Computer Science, UFPR</p>
+    <ul>
+      <li>Built the submission that took 1st place in Sub-Task 2.1 of FRCSyn at WACV 2024, and the SDFR entries placing 3rd in both tasks at FG 2024.</li>
+      <li>Trained and evaluated face recognition models on million-image synthetic identity datasets with InsightFace.</li>
+      <li>Quantified the impact of synthetic training data across eight benchmarks; published at SIBGRAPI 2024.</li>
+      <li>Authored the group's masked face recognition benchmark (SIBGRAPI 2022).</li>
+      <li>Reproducible benchmark protocols, every run tracked in Weights &amp; Biases.</li>
+    </ul>
+  </article>
+  <article>
+    <h3>Visiting Researcher, Exchange Program <span>Mar – Jun 2023</span></h3>
+    <p class="org">University of Louisiana at Lafayette, USA</p>
+    <ul>
+      <li>Extended Earth Mover's Distance as the matching metric for occluded face verification, validated by FNMR at fixed FMR (SIBGRAPI 2023).</li>
+      <li>Summer school on innovation and startups, followed by a research internship.</li>
+    </ul>
+  </article>
+</section>
+
+<section id="awards">
+  <h2>Honors &amp; competitions</h2>
+  <div class="grid">
+    <div class="card"><b>1st place</b><p>FRCSyn Challenge, WACV 2024 — Sub-Task 2.1 (plus 3rd, 4th, 4th in Sub-Tasks 1.1, 1.2, 2.2)</p></div>
+    <div class="card"><b>3rd place</b><p>SDFR Competition, FG 2024 — both tasks</p></div>
+    <div class="card"><b>6th place</b><p>FRCSyn Challenge 2nd edition, CVPR 2024 — Sub-Task 2.1</p></div>
+    <div class="card"><b>Scholarship</b><p>HIAAC graduate scholarship, Unicamp (2026)</p></div>
+    <div class="card"><b>Honorable Mention</b><p>OBMEP, Brazilian Mathematics Olympiad (2019)</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <article>
+    <h3>Federated Learning for Privacy-Preserving Facial Recognition <span>2026</span></h3>
+    <p>2D face recognition trained without centralizing biometric data, combining federated clients with synthetic facial data to hold accuracy under non-IID splits, limited client compute and scarce local data.</p>
+    <p><a href="https://github.com/PedroBVidal">Code on GitHub</a></p>
+  </article>
+  <article>
+    <h3>Comparative Evaluation of Synthetic Facial Datasets <span>2025</span></h3>
+    <p>Undergraduate thesis: face recognition models trained on multiple synthetic datasets and scored across eight benchmarks, isolating the dataset characteristics behind stronger and weaker performance. Extended into a survey submitted to IEEE Access.</p>
+    <p><a href="https://bit.ly/3V03Efp">Thesis</a></p>
+  </article>
+  <article>
+    <h3>Training Pipeline for Synthetic-Data Competitions <span>2024</span></h3>
+    <p>The pipeline behind the SDFR and FRCSyn submissions: InsightFace adapted for training and evaluation on million-image synthetic datasets, with results organized for comparison across configurations and protocols.</p>
+  </article>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <dl>
+    <dt>LLMs, agents</dt><dd>Multi-agent systems, inter-agent communication, dynamic memory retrieval, ReAct, chain-of-thought, task decomposition, agentic benchmarking</dd>
+    <dt>Machine learning</dt><dd>PyTorch, TensorFlow, MXNet, Keras, OpenCV, InsightFace, Flower, generative models, face recognition, liveness detection, knowledge distillation, LoRA, Federated Learning</dd>
+    <dt>Data</dt><dd>NumPy, Pandas, Scikit-learn, Matplotlib, dataset validation, statistical comparison of results</dd>
+    <dt>Engineering</dt><dd>Python, Git, Linux, shell, Conda, Jupyter, Weights &amp; Biases, distributed training</dd>
+    <dt>Languages</dt><dd>Portuguese (native), English (fluent)</dd>
+  </dl>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <h3 class="sub">First author</h3>
+  <ol>
+    <li><b>Vidal, P.</b>, Biesseck, B., et al. (2024). <a href="https://sol.sbc.org.br/index.php/sibgrapi_estendido/article/view/31662/31465">A Comparative Study on Synthetic Facial Data Generation Techniques for Face Recognition</a>. SIBGRAPI 2024.</li>
+    <li><b>Vidal, P.</b>, Chu, H., et al. (2023). <a href="http://sibgrapi.sid.inpe.br/col/sid.inpe.br/sibgrapi/2023/08.19.14.46/doc/thisInformationItemHomePage.html">Extending Earth Mover's Distance to Occluded Face Verification</a>. SIBGRAPI 2023, IEEE, pp. 49–54.</li>
+    <li><b>Vidal, P.</b>, Granada, R. L., et al. (2022). <a href="http://urlib.net/ibi/8JMKD3MGPEW34M/47MDTC2">A Benchmark on Masked Face Recognition</a>. SIBGRAPI 2022.</li>
+  </ol>
+  <h3 class="sub">Co-authored</h3>
+  <ol start="4">
+    <li>Shahreza, H. O., et al. (2024). <a href="https://ieeexplore.ieee.org/abstract/document/10581946/">SDFR: Synthetic Data for Face Recognition Competition</a>. IEEE FG 2024.</li>
+    <li>DeAndres-Tame, I., et al. (2024). <a href="https://openaccess.thecvf.com/content/CVPR2024W/FRCSyn/">FRCSyn Challenge at CVPR 2024</a>. CVPR Workshops, pp. 3173–3183.</li>
+    <li>Melzi, P., et al. (2024). <a href="https://openaccess.thecvf.com/content/WACV2024W/FRCSyn/papers/Melzi_FRCSyn_Challenge_at_WACV_2024_Face_Recognition_Challenge_in_the_WACVW_2024_paper.pdf">FRCSyn Challenge at WACV 2024</a>. WACV Workshops, pp. 892–901.</li>
+    <li>Neto, P. C., et al. (2022). <a href="https://ieeexplore.ieee.org/document/10007963">OCFR 2022: Competition on Occluded Face Recognition from Synthetically Generated Structure-Aware Occlusions</a>. IJCB 2022.</li>
+  </ol>
+</section>
+
+<section id="evidence">
+  <h2>Evidence</h2>
+  <p>Certificates backing the claims above.</p>
+  <ul class="ev">
+    <li><a href="assets/evidence/frcsyn-wacv2024-1st-place.pdf">FRCSyn Challenge, WACV 2024 — 1st place, Sub-Task 2.1 (team BOVIFOCR-UFPR)</a></li>
+    <li><a href="assets/evidence/sibgrapi2024-presentation.pdf">SIBGRAPI 2024 — certificate of presentation (comparative study on synthetic facial data)</a></li>
+    <li><a href="assets/evidence/sibgrapi2023-participation.pdf">SIBGRAPI 2023 — certificate of participation</a></li>
+    <li><a href="assets/evidence/sibgrapi2022-participation.pdf">SIBGRAPI 2022 — certificate of participation</a></li>
+    <li><a href="assets/evidence/ull-summer-school-2023.pdf">University of Louisiana at Lafayette — summer school, 2023</a></li>
+  </ul>
+</section>
+</main>
+<footer>© 2026 Pedro Beber de Queiroz Vidal · Campinas, SP, Brazil</footer>
+</body>
+</html>
