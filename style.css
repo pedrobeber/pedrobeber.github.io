@@ -127,3 +127,6 @@ footer{padding:48px 20px 40px;color:var(--mute);font-size:.88rem}
 @media(max-width:560px){.contact-info dl{grid-template-columns:1fr;gap:0}.contact-info dd{margin-bottom:10px}}
 @media(min-width:900px){.contact{grid-template-columns:repeat(3,1fr)}}
 #contact{padding-bottom:24px}
+#contact{padding-top:28px}
+@media(min-width:900px){.hero{padding-bottom:36px}}
+@media(max-width:560px){#contact{padding-top:22px}}
