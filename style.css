@@ -118,3 +118,4 @@ footer{padding:48px 20px 40px;color:var(--mute);font-size:.88rem}
 .cvs a.cv{display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);text-decoration:none;font-weight:600;font-size:.92rem;color:var(--fg)}
 .cvs a.cv small{color:var(--mute);font-weight:500}.cvs a.cv:hover{border-color:var(--cv);color:var(--cv)}
 .chips{margin-bottom:20px}
+@media(min-width:900px){.contact{max-width:none;grid-template-columns:1.7fr 1fr 1fr 1.1fr}}
