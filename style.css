@@ -119,3 +119,11 @@ footer{padding:48px 20px 40px;color:var(--mute);font-size:.88rem}
 .cvs a.cv small{color:var(--mute);font-weight:500}.cvs a.cv:hover{border-color:var(--cv);color:var(--cv)}
 .chips{margin-bottom:20px}
 @media(min-width:900px){.contact{max-width:none;grid-template-columns:1.7fr 1fr 1fr 1.1fr}}
+
+.contact-info dl{display:grid;grid-template-columns:110px 1fr;gap:8px 16px;margin:0}
+.contact-info dt{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--mute);padding-top:3px}
+.contact-info dd{margin:0;overflow-wrap:anywhere}
+.contact-info a{color:var(--llm);text-decoration:none;border-bottom:1px dotted var(--llm)}
+@media(max-width:560px){.contact-info dl{grid-template-columns:1fr;gap:0}.contact-info dd{margin-bottom:10px}}
+@media(min-width:900px){.contact{grid-template-columns:repeat(3,1fr)}}
+#contact{padding-bottom:24px}
